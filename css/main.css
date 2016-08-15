@@ -1,0 +1,121 @@
+/* For mobile phones:
+[class*="col-"] {
+    width: 100%;
+} */
+
+/* li{
+	display: inline-block;
+	
+}
+header{
+	width: 100%;
+}
+.parrafo{
+	width: 40%;
+	box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+} */
+
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 535px){
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+.text-rigth{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+.logo{
+  margin: 2%;
+  height: 25%;
+  width: 25%;
+}
+nav{
+  margin-top: 3%;
+  font-size: 16px;
+}
+nav a{
+  text-decoration: none;
+  color: #808080;
+  margin-right: 2%;
+}
+section{
+  background-color: #808080;
+  width: 100%;
+  height: 100%;
+}
+section h1{
+  font-size: 50px;
+  color:white;
+  margin-top: 10%;
+}
+section p{
+  font-size: 16px;
+  color: #D7D7D1;
+  margin-top: 4%;
+  margin-bottom:10%;
+}
+form{
+  padding: 2%;
+}
+span{
+  color:blue;
+}
+footer p{
+  color:#A9ADB9;
+  margin-left:16%;
+  margin-top: 3%;
+}
+.forma{
+  background-color:#9A9A9A;
+  border-radius: 5%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+.forma h2{
+  margin-bottom: 4%;
+  font-size: 18px;
+}
+input{
+  width: 80%;
+  height:100%;
+  padding-top: 2%;
+  margin-bottom: 4%;
+  padding-bottom: 2%;
+}
+button{
+  background-color: #3EB0F7;
+  border: none;
+  width: 50%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 10%;
+  color: white;
+}
